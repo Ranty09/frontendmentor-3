@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Outfit:wght@300;400;600&display=swap');
+
+body{
+  height: 100vh;
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  height: 550px;
+  width: 330px;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 10px;
+  }
+
+.equilibrium{
+  height: 285px;
+  width: 285px;
+  margin-top: 20px;
+  margin-left: 24px;
+  border-radius: 10px;
+  position: relative;
+} 
+.eye-box{
+background-color: cyan;
+height: 289px;
+width: 285px;
+margin-top: 20px;
+margin-left: 24px;
+border-radius: 10px;
+position: absolute;
+top: 41px;
+display: flex;
+justify-content: center;
+align-items: center;
+opacity: 0;
+}
+.eye{
+  height: 60px;
+}
+  
+.eye-box:hover{
+ cursor: pointer;
+ opacity: 0.5;
+ transition: 1s;
+ 
+}
+.card-details{
+  margin-top: 5px;
+  margin-left: 24px;
+  padding-right: 10px;
+  font-size: 15px;
+  font-family: 'outfit', sans-serif; 
+}
+h3{
+  color: hsl(0, 0%, 100%) ;
+  font-size: 20px;
+}
+p{
+  font-size: 17px;
+  color: hsl(215, 51%, 70%);
+  font-weight: 250px;
+  margin-top: -5px;
+}
+.eth{
+  display: flex;
+  gap: 80px;
+  font-weight: bold;
+  display: flex;
+ 
+}
+
+.eth img{
+  margin: 5px;
+  
+}
+
+.eth-1{
+  display: flex;
+  align-items: center;
+  color: hsl(178, 100%, 50%)
+  ;
+}
+
+.eth-2{
+  display: flex;
+  align-items: center;
+  color: hsl(215, 51%, 70%) ;
+}
+.line{
+  background-color: hsl(215, 30%, 24%);
+  width: 270px;
+  height: 1px;
+  
+}
+.avatar{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avatar img{
+  height: 28px;
+  border-width: 10px;
+  border-color: aqua;
+  border: 2px solid hsl(215, 51%, 70%);
+  border-radius: 50px;
+}
+.credit-1{
+  color: hsl(215, 51%, 70%);
+
+}
+.credit-2{
+  color:  hsl(214, 33%, 82%);
+}
